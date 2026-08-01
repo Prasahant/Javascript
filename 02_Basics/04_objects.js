@@ -78,3 +78,16 @@ console.log(newUser.hasOwnProperty("name")); // Output: true
 databaseUser.push(newUser); // this will add the newUser object to the databaseUser array.
 
 console.log(databaseUser); 
+
+
+//destructuring of objects
+const course = {
+    courseName: "JavaScript",
+    courseDuration: "3 months",
+    courseInstructor: "Prashant"
+}
+
+const {courseInstructor: instructor} = course;
+console.log(instructor); // Output: Prashant
+
+
