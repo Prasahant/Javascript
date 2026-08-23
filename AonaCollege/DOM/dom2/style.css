@@ -1,0 +1,17 @@
+body{
+    color: rgb(237, 205, 211)
+}
+div{
+    color:blue;
+}
+h2{
+    visibility: hidden;
+}
+.content{
+    color: red;
+    background-color: green;
+}
+
+.new_class{
+    color: blue;
+}

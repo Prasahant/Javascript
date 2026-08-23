@@ -1,0 +1,14 @@
+
+.para{
+   color: red;
+}
+#box{
+    height:100px;
+    width: 100px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 10%;
+    align-items: center;
+    color:black;
+    background-color: aqua;
+}

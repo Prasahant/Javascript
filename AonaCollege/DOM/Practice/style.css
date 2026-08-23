@@ -1,0 +1,11 @@
+.class-name{
+    color:rgb(17, 17, 56);
+    height: 100px;
+    width : 100px;
+    background-color: rgb(198, 36, 36);
+    padding: 5px 10px 5px 10px;
+    border: 10px solid rgb(159, 215, 151);
+    margin: 50px 10px 50px;
+    text-align: center;
+   
+}

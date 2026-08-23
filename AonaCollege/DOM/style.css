@@ -1,0 +1,28 @@
+h1{
+    color: rgb(185, 75, 75);
+    font: size 20%; ;
+    text-decoration: "line-through";
+    background-color: violet;
+}
+#header2{
+    color: blue;
+    background-color: chartreuse;
+}
+
+body{
+    background-color: pink;
+}
+h4{
+    text-decoration: dotted;
+}
+
+button{
+    color: blue;
+    background-color: yellow;
+}
+
+.para{  /* This is a Class comment */
+    color: darkcyan;
+    font-size: 25px;
+    background-color: rgb(219, 205, 205);
+}
