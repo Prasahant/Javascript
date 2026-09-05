@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai aur JavaScript</h1>
+    <button id="start">Start!</button>
+    <button id="stop">Stop!</button>
+
+    <script>
+        function start() {
+            console.log("start", Date.now());
+            document.querySelector("h1").innerHTML = "Hello Prashant";
+        }
+        function stop() {
+            console.log("stop", Date.now());
+            document.querySelector("h1").innerHTML = "Stoped";
+        }
+        let intervalId = null;
+        document.getElementById("start").addEventListener("click", function() {
+            if(intervalId==null){
+                intervalId = setInterval(start, 3000);
+            }
+        });
+        document.getElementById("stop").addEventListener("click", function() {
+            clearInterval(intervalId);
+            intervalId = null;
+            stop();
+        });
+    </script>
+</body>
+</html>
